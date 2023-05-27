@@ -1,0 +1,19 @@
+#header{
+    background-color: #fff !important;
+    color: #ff0000 !important;
+}
+
+
+#header a:link, #header a:visited {
+    color: #000 !important;
+}
+
+
+div.breadcumbs{
+    background-color: #1c1f1f;
+}
+
+
+.module h2, .module caption, inline-group h2 {
+    background-color: #1c1f1;
+}
