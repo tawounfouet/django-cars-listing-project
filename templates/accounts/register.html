@@ -1,23 +1,22 @@
 {% extends 'base.html' %}
 
-{% block title %}  |  Register {% endblock %}
+{% block title %} | Register {% endblock %}
 {% block content %}
 {% load static %}
-
+{% load socialaccount %}
+{% providers_media_js %}
 <div class="sub-banner overview-bgi">
     <div class="container breadcrumb-area">
         <div class="breadcrumb-areas">
             <h1>Register</h1>
             <ul class="breadcrumbs">
                 <li><a href="{% url 'home' %}">Home</a></li>
-                <li class="active">Login</li>
+                <li class="active">Register</li>
             </ul>
         </div>
     </div>
 </div>
-<!-- Sub Banner end -->
 
-<!-- Contact section start -->
 <div class="contact-section">
     <div class="container">
         <div class="row">
@@ -29,9 +28,10 @@
                         </a>
                     </div>
                     <h3>Create an account</h3>
+
                     {% include 'includes/messages.html' %}
                     <form action="{% url 'register' %}" method="POST">
-                        {% csrf_token %}
+                      {% csrf_token %}
                         <div class="form-group form-box">
                             <input type="text" name="firstname" class="input-text" placeholder="First Name" required>
                             <i class="fa fa-user"></i>
@@ -64,9 +64,8 @@
                         </div>
                         <div class="clearfix"></div>
                         <ul class="social-list">
-                            <li><a href="#" class="facebook-bg"><i class="fa fa-facebook facebook-i"></i><span>Facebook</span></a></li>
-                            <li><a href="#" class="google-bg"><i class="fa fa-google google-i"></i><span>Google</span></a></li>
-                            <li><a href="#" class="linkedin-bg"><i class="fa fa-linkedin linkedin-i"></i><span>LinkedIn</span></a></li>
+                            <li><a href="{% provider_login_url 'facebook' method='js_sdk' %}" class="facebook-bg"><i class="fa fa-facebook facebook-i"></i><span>Facebook</span></a></li>
+                            <li><a href="{% provider_login_url 'google' %}" class="google-bg"><i class="fa fa-google google-i"></i><span>Google</span></a></li>
                         </ul>
                     </form>
                     <p>Already a member? <a href="{% url 'login' %}" class="thembo"> Login here</a></p>
@@ -75,6 +74,5 @@
         </div>
     </div>
 </div>
-<!-- Contact section end -->
 
 {% endblock %}

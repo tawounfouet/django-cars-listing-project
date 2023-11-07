@@ -4,7 +4,10 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand company-logo" href="{% url 'home' %}">
-                <img src="{% static 'img/logos/black-logo.png' %}" alt="logo">
+                <!-- <img src="{% static '../img/logos/black-logo.png' %}" alt="logo"> -->
+                <img src="">
+                <!-- <img src="{% static 'logos/black-logo.png' %}" class="img-fluid" alt="logo"> -->
+                <!-- <img class="d-block w-100 h-100" src="{% static 'img/car-3.jpg' %}" alt="banner"> -->
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fa fa-bars"></span>
@@ -18,43 +21,40 @@
                           {% else %}
                           class="nav-link"
                           {% endif %}
-                        href="{% url 'home' %}" >
+                         href="{% url 'home' %}">
                             Home
                         </a>
                     </li>
-
                     <li class="nav-item">
                         <a
                         {% if 'cars' in request.path %}
-                          class="nav-link active"
-                          {% else %}
-                          class="nav-link"
-                          {% endif %}
-                          href="{% url 'cars' %}" >
+                        class="nav-link active"
+                        {% else %}
+                        class="nav-link"
+                        {% endif %}
+                         href="{% url 'cars' %}">
                             Cars
                         </a>
                     </li>
-
                     <li class="nav-item">
                         <a
-                          {% if 'about' in request.path %}
-                          class="nav-link active"
-                          {% else %}
-                          class="nav-link"
-                          {% endif %}
-                          href="{% url 'about' %}">
+                        {% if 'about' in request.path %}
+                        class="nav-link active"
+                        {% else %}
+                        class="nav-link"
+                        {% endif %}
+                         href="{% url 'about' %}">
                             About
                         </a>
                     </li>
-
                     <li class="nav-item">
                         <a
-                         {% if 'services' in request.path %}
-                          class="nav-link active"
-                          {% else %}
-                          class="nav-link"
-                          {% endif %}
-                          href="{% url 'services' %}">
+                        {% if 'services' in request.path %}
+                        class="nav-link active"
+                        {% else %}
+                        class="nav-link"
+                        {% endif %}
+                         href="{% url 'services' %}">
                             Services
                         </a>
                     </li>
@@ -62,12 +62,12 @@
 
                     <li class="nav-item dropdown">
                         <a
-                         {% if 'contact' in request.path %}
-                          class="nav-link active"
-                          {% else %}
-                          class="nav-link"
-                          {% endif %}
-                           href="{% url 'contact' %}">Contact</a>
+                        {% if 'contact' in request.path %}
+                        class="nav-link active"
+                        {% else %}
+                        class="nav-link"
+                        {% endif %}
+                         href="{% url 'contact' %}">Contact</a>
                     </li>
                     <li class="nav-item dropdown m-hide">
                         <a href="#full-page-search" class="nav-link h-icon">
