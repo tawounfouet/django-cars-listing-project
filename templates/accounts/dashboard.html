@@ -33,6 +33,7 @@
                 <th scope="col">#</th>
                 <th scope="col">Car Name</th>
                 <th scope="col">Location</th>
+                <!-- <th scope="col">Price</th> -->
                 <th scope="col">Action</th>
               </tr>
               </thead>
@@ -44,6 +45,7 @@
                   <th scope="row">1</th>
                   <td>{{inquiry.car_title}}</td>
                   <td>{{inquiry.city}}</td>
+                  <!-- <td>{{inquiry.price}}</td> -->
                   <td><a href="{% url 'car_detail' inquiry.car_id %}" class="btn btn-outline-dark">View Car</a></td>
                 </tr>
               {% endfor %}

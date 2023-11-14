@@ -148,13 +148,15 @@ MESSAGE_TAGS = {
     messages.INFO: 'danger',
 }
 
-SITE_ID = 1
-
 
 #Email sending
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = '587'
 EMAIL_HOST_USER = 'thomas.awounfouet@gmail.com'
-EMAIL_HOST_PASSWORD = 'Thomson1995'
+EMAIL_HOST_PASSWORD = 'Thomson&1995'
 EMAIL_USE_TLS = True
+
+
+# allauth settings
+SITE_ID = 1
