@@ -21,13 +21,3 @@ requests-oauthlib==1.3.0
 sqlparse==0.3.1
 urllib3==1.25.9
 whitenoise==5.1.0
-
-# create virtual environment withon virtualenv 
-# virtualenv venv
-
-# activate virtual environment
-# source venv/bin/activate
-
-# install all dependencies
-# pip install -r requirements.txt
-
