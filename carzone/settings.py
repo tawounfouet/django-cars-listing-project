@@ -27,7 +27,7 @@ SECRET_KEY = ')8kq(vk#y8piu04d@--47(@#okz3i6tik#85wd*j(=9hvqhvz7'
 #DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['polar-brook-36229-9e88bac3ecff.herokuapp.com', 'localhost', '']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
