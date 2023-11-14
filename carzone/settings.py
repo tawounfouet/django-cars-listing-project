@@ -146,7 +146,6 @@ from django.contrib.messages import constants as messages
 
 MESSAGE_TAGS = {
     messages.INFO: 'danger',
-    50: 'critical',
 }
 
 SITE_ID = 1
