@@ -55,16 +55,16 @@ def contact(request):
         email_subject = 'You have a nex message from Carzone website regarding ' + subject
         message_body = 'Name: ' + name + '. Email: ' + email + '. Phone: ' + phone + '. Message: ' + message
 
-        admin_info = User.objects.get(is_superuser=True)
-        admin_email = admin_info.email
+        # admin_info = User.objects.get(is_superuser=True)
+        # admin_email = admin_info.email
 
-        send_mail(
-            email_subject,
-            message_body,
-            'thomas.awounfouet@gmail.com',
-            [admin_email],
-            fail_silently=False,
-        )
+        # send_mail(
+        #     email_subject,
+        #     message_body,
+        #     'thomas.awounfouet@gmail.com',
+        #     [admin_email],
+        #     fail_silently=False,
+        # )
         messages.success(request, 'Thank your for contacting us. We will get back to you shortly')
         return redirect('contact')
     return render(request, 'pages/contact.html')

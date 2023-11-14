@@ -1,0 +1,890 @@
+[
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "TX",
+        "city": "Austin",
+        "color": "White",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": 4000,
+        "description": "<p>La&nbsp;<strong>Ferrari 488 GTB</strong>&nbsp;est une&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Voiture_de_sport\" title=\"Voiture de sport\">voiture de sport</a>&nbsp;du&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Constructeur_automobile\" title=\"Constructeur automobile\">constructeur</a>&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Italie\" title=\"Italie\">italien</a>&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Ferrari_(entreprise)\" title=\"Ferrari (entreprise)\">Ferrari</a>&nbsp;commercialis&eacute;e &agrave; partir de 2015. C&#39;est la premi&egrave;re voiture de la marque &agrave;&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Moteur_V8\" title=\"Moteur V8\">moteur V8</a>&nbsp;double turbo en position centrale arri&egrave;re depuis la&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>. Elle a &eacute;t&eacute; d&eacute;voil&eacute;e &agrave; la presse le 3 f&eacute;vrier 2015<a href=\"https://fr.wikipedia.org/wiki/Ferrari_488_GTB#cite_note-mot1-1\">1</a>.</p>\r\n\r\n<p>L&#39;appellation de la 488 rompt avec celle de la 458 Italia (mais aussi des berlinettes qui ont pr&eacute;c&eacute;d&eacute; cette derni&egrave;re) dont le chiffre &laquo;&nbsp;458&nbsp;&raquo; signifiait une cylindr&eacute;e de&nbsp;4,5&nbsp;litres et huit cylindres. Cette fois-ci, le &laquo;&nbsp;488&nbsp;&raquo; indique le volume d&#39;un cylindre en cm3, qui multipli&eacute; par 8 donne bien&nbsp;3,9&nbsp;L, l&#39;appellation &quot;GTB&quot; signifiant &laquo;&nbsp;Gran Turismo Berlinetta&nbsp;&raquo;.</p>\r\n\r\n<p><img alt=\"smiley\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png\" style=\"height:23px; width:23px\" title=\"smiley\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>",
+        "car_photo": "photos/2022/01/03/1902536891.jpg",
+        "car_photo_1": "photos/2022/01/03/1902536917.jpg",
+        "car_photo_2": "photos/2022/01/03/1902537043.jpg",
+        "car_photo_3": "photos/2022/01/03/1902537077.jpg",
+        "car_photo_4": "photos/2022/01/03/1902537082.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Alarm System,Wind Deflector,Bluetooth Handset",
+        "body_style": "Sport",
+        "engine": "3.4L Mid-Engine V6",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 9988,
+        "doors": "3",
+        "passengers": 2,
+        "vin_no": "WP0A........47",
+        "milage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-01-03T22:39:36Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "TX",
+        "city": "Dallas",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": 25000,
+        "description": "<p>Le&nbsp;<strong>Ford Edge</strong>&nbsp;est un crossover de la marque am&eacute;ricaine&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Ford\" title=\"Ford\">Ford</a>, produit depuis octobre 2006. Il est le premier repr&eacute;sentant du segment des&nbsp;<a href=\"https://fr.wikipedia.org/wiki/V%C3%A9hicule_utilitaire_sport#Crossover_/_Multi-segments\" title=\"V\u00e9hicule utilitaire sport\">crossovers</a>&nbsp;dans la gamme de Ford.</p>\r\n\r\n<p>Le SE comprend des si&egrave;ges en tissu, climatisation manuelle monozone, cha&icirc;ne st&eacute;r&eacute;o AM/FM avec lecteur CD monodisque/MP3 et jantes de 17 pouces en aluminium peint.</p>\r\n\r\n<p>Le SEL comprend des si&egrave;ges en tissu uniques, si&egrave;ge conducteur &agrave; six r&eacute;glages &eacute;lectriques, cha&icirc;ne st&eacute;r&eacute;o AM/FM haut de gamme avec lecteur CD &agrave; six disques/MP3 sur le tableau de bord, volant gain&eacute; de cuir avec commandes audio secondaires et jantes de 18 pouces en aluminium peint.</p>",
+        "car_photo": "photos/2022/01/03/1901478607.jpg",
+        "car_photo_1": "photos/2022/01/03/1901478618.jpg",
+        "car_photo_2": "photos/2022/01/03/1901478646.jpg",
+        "car_photo_3": "photos/2022/01/03/1901478672.jpg",
+        "car_photo_4": "photos/2022/01/03/1901478687.jpg",
+        "features": "Audio Interface,Air Conditioning,Reversing Camera,Direct Fuel Injection,Auto Start/Stop",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V7",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 15000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WP0TKHK1788547",
+        "milage": 8,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2022-01-03T22:45:39Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "NY",
+        "city": "Ohio",
+        "color": "Black",
+        "model": "F-250",
+        "year": 2017,
+        "condition": "Used",
+        "price": 30000,
+        "description": "<p>Le&nbsp;<strong>Ford Super Duty</strong>&nbsp;(abr&eacute;viation de F-Series Super Duty) est une s&eacute;rie de pickups fabriqu&eacute;s par la&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>. Introduits en 1998 pour l&#39;ann&eacute;e mod&egrave;le 1999 (l&#39;ann&eacute;e mod&egrave;le 1998 a &eacute;t&eacute; ignor&eacute;e), les pickups F-Series Super Duty ont marqu&eacute; l&#39;ajout d&#39;un pick-up robuste &agrave; la gamme&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Ford_F-Series\" title=\"Ford F-Series\">Ford F-Series</a>&nbsp;avec des nouvelles versions du F-250, des pickups F-350 et F-450, tandis que les pr&eacute;c&eacute;dents ch&acirc;ssis-cabines F-Super Duty de 1987 &agrave; 1997 ont &eacute;t&eacute; remplac&eacute;s par les ch&acirc;ssis-cabines F-450 et F-550 Super Duty.</p>",
+        "car_photo": "photos/2022/01/03/1894300894.jpg",
+        "car_photo_1": "photos/2022/01/03/1894300905.jpg",
+        "car_photo_2": "photos/2022/01/03/1894300920.jpg",
+        "car_photo_3": "photos/2022/01/03/1900155012.jpg",
+        "car_photo_4": "photos/2022/01/03/1900155133.jpg",
+        "features": "Audio Interface,Airbags,Reversing Camera",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V7",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 13000,
+        "doors": "3",
+        "passengers": 2,
+        "vin_no": "WP0TKHK1788547",
+        "milage": 7,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-01-03T22:50:22Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Jaguar F-PAGE",
+        "state": "TX",
+        "city": "Austin",
+        "color": "Green",
+        "model": "F_PAGE",
+        "year": 2017,
+        "condition": "Used",
+        "price": 50000,
+        "description": "<p>La&nbsp;<strong>F-Pace</strong>&nbsp;est un&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Sport_Utility_Vehicle\" title=\"Sport Utility Vehicle\">SUV</a>&nbsp;commercialis&eacute; &agrave; partir de&nbsp;<a href=\"https://fr.wikipedia.org/wiki/2015\" title=\"2015\">2015</a>&nbsp;par le&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Constructeur_automobile\" title=\"Constructeur automobile\">constructeur automobile</a>&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Royaume-Uni\" title=\"Royaume-Uni\">britannique</a>&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Jaguar_(automobile)\" title=\"Jaguar (automobile)\">Jaguar</a>. Il s&#39;agit du premier SUV de la marque. Elle est &eacute;lue &laquo;&nbsp;World Car of the Year&nbsp;2017&nbsp;&raquo; (Voiture mondiale de l&#39;ann&eacute;e 2017) &agrave; l&#39;occasion du&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Salon_de_l%27automobile_de_New_York\" title=\"Salon de l'automobile de New York\">salon de New York</a>&nbsp;en&nbsp;mars 2017<a href=\"https://fr.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-1\">1</a>.</p>\r\n\r\n<p>La F-Pace est pr&eacute;sent&eacute;e en&nbsp;septembre 2015&nbsp;au&nbsp;<a href=\"https://fr.wikipedia.org/wiki/Salon_de_l%27automobile_de_Francfort\" title=\"Salon de l'automobile de Francfort\">salon de l&#39;automobile de Francfort</a><a href=\"https://fr.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-2\">2</a>. La veille de l&#39;ouverture du salon au public, le&nbsp;17 septembre 2015, un record du monde est r&eacute;alis&eacute; avec le passage d&#39;un looping de 19&nbsp;m&nbsp;de diam&egrave;tre avec le SUV, le cascadeur Terry Grant &eacute;tant &agrave; son bord<a href=\"https://fr.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-3\">3</a>,<a href=\"https://fr.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-4\">4</a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><u><strong>La F-Pace est pr&eacute;sent&eacute;e</strong></u></p>",
+        "car_photo": "photos/2022/01/03/1902932503.jpg",
+        "car_photo_1": "photos/2022/01/03/1902932514.jpg",
+        "car_photo_2": "photos/2022/01/03/1902932528.jpg",
+        "car_photo_3": "photos/2022/01/03/1902932542.jpg",
+        "car_photo_4": "photos/2022/01/03/1902932542_FQakh2D.jpg",
+        "features": "Cruise Control,Air Conditioning,Seat Heating,Reversing Camera,Direct Fuel Injection,Auto Start/Stop",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V4",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 12500,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WP0TKHK17EKTY",
+        "milage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-01-03T22:54:51Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Smith",
+        "designation": "Founder",
+        "photo": "photos/2022/01/avatar-11.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google.com",
+        "created_date": "2022-01-03T19:07:17.262Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Stone",
+        "last_name": "Caroline",
+        "designation": "Creative Director",
+        "photo": "photos/2022/01/avatar-9.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google.com",
+        "created_date": "2022-01-03T19:07:52.677Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "designation": "Co-Founder",
+        "photo": "photos/2022/01/avatar-1_Xz2szEw.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google.com",
+        "created_date": "2022-01-03T19:08:45.426Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "designation": "CEO",
+        "photo": "photos/2022/01/avatar-12.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google.com",
+        "created_date": "2022-01-03T19:09:49.279Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "Michelle",
+        "last_name": "Nelson",
+        "designation": "Support Manager",
+        "photo": "photos/2022/01/avatar-10.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google.com",
+        "created_date": "2022-01-03T19:11:14.961Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Thomas",
+        "last_name": "AWOUNFOUET",
+        "car_id": 3,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ford F-250 Super Duty",
+        "city": "VILLENEUVE-LA-GARENNE",
+        "state": "93100",
+        "email": "thomas.awounfouet@gmail.com",
+        "phone": "0668957467",
+        "message": "Thank you for you prompt response",
+        "user_id": 0,
+        "created_date": "2022-01-05T16:39:01.293Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Thomas",
+        "last_name": "AWOUNFOUET",
+        "car_id": 3,
+        "customer_need": "I'd like a history report for this",
+        "car_title": "2017 Ford F-250 Super Duty",
+        "city": "Montreuil",
+        "state": "93100",
+        "email": "thomas.awounfouet@gmail.com",
+        "phone": "0668957467",
+        "message": "I want to test this car",
+        "user_id": 1,
+        "created_date": "2022-01-05T16:42:09.681Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "Thomas",
+        "last_name": "AWOUNFOUET",
+        "car_id": 3,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ford F-250 Super Duty",
+        "city": "VILLENEUVE-LA-GARENNE",
+        "state": "asa",
+        "email": "thomas.awounfouet@gmail.com",
+        "phone": "0668957467",
+        "message": "cdada",
+        "user_id": 6,
+        "created_date": "2023-11-14T19:37:30.169Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "Thomas",
+        "last_name": "AWOUNFOUET",
+        "car_id": 4,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Jaguar F-PAGE",
+        "city": "VILLENEUVE-LA-GARENNE",
+        "state": "Paris",
+        "email": "thomas.awounfouet@gmail.com",
+        "phone": "0668957467",
+        "message": "dadammda",
+        "user_id": 6,
+        "created_date": "2023-11-14T19:37:59.305Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$jJJSJNz1Xbka$H1tnrAXaapMVDZqEeKop+zoPezsD2TVWLjg08z+x5Zw=",
+        "last_login": "2022-02-09T13:50:06.115Z",
+        "is_superuser": true,
+        "username": "djangoadmin",
+        "first_name": "Thomas",
+        "last_name": "AWOUNFOUET",
+        "email": "thomas.awounfouet@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-01-03T18:29:15Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$wBPVWNSMDhAp$IpcwiLHmpI7HU8F5nrSvOB889FB+/ZKC9yA+iR6fWUE=",
+        "last_login": "2022-01-05T13:25:29.802Z",
+        "is_superuser": false,
+        "username": "wawounfouet",
+        "first_name": "Willie",
+        "last_name": "AWOUNFOUET",
+        "email": "willieawounfouet@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-01-05T13:25:29.519Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$F2P50uQ5jtmO$WBnRgL7OhDetPDaCaiy71Q5dlERiHoMZ8k1gEtZkziw=",
+        "last_login": "2023-11-14T19:16:55.600Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-11-07T19:01:44.743Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$xvqPXHL6ITo8$hV85I663VWiPDCIpl2wR6hK+avfiz4+7THVIMNmOPP8=",
+        "last_login": "2023-11-14T18:08:33.278Z",
+        "is_superuser": false,
+        "username": "tawounfouet",
+        "first_name": "Thomas",
+        "last_name": "AWOUNFOUET",
+        "email": "thomas.awounfouet@yahoo.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-11-14T18:08:33.165Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!uUWLDBLaXr7DZysttnSziuvwwFC0qjFAucksD0se",
+        "last_login": "2023-11-14T19:26:59.732Z",
+        "is_superuser": false,
+        "username": "thomas",
+        "first_name": "Thomas",
+        "last_name": "AWOUNFOUET",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-11-14T19:03:41.800Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$MAaGDCGa5sbd$3MxCOvgMiMB4dyIz/FCNwmHQftBMEQ9SaItTWzSPDFA=",
+        "last_login": "2023-11-14T19:28:54.405Z",
+        "is_superuser": false,
+        "username": "johndoe",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "joh.doe@example.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-11-14T19:28:54.295Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8j2d97la80iqbn4m9m9eyt4yk7x3fk4e",
+    "fields": {
+        "session_data": "NmUxZjBiY2U1NWY0OTQ3ZGJjYmMyNmUxN2QzYTYxMmQ0NmNmMTVlNDp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7InByb2Nlc3MiOiJsb2dpbiIsInNjb3BlIjoiIiwiYXV0aF9wYXJhbXMiOiIifSwidkFsMk8yUXIzWmpRIl0sIl9hdXRoX3VzZXJfaWQiOiIzIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmYmQ0NTQxNWMzZGEyNTVlNDA5MDlhOTkwOGZhZjQ4YTA5NmQ1OTExIn0=",
+        "expire_date": "2023-11-28T19:16:55.602Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "auur9qgefzvuiwok8phxceoeo0kcgyxm",
+    "fields": {
+        "session_data": "OTAxMzFmMGI4MmRlYzUzMzU1ODE5YjIxMWMyOTgyZDI4ZWE1ZDA1Nzp7Il9hdXRoX3VzZXJfaWQiOiIzIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmYmQ0NTQxNWMzZGEyNTVlNDA5MDlhOTkwOGZhZjQ4YTA5NmQ1OTExIn0=",
+        "expire_date": "2023-11-21T19:02:07.245Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "jcq9gvuakc32tmta0kipaqdeoavqoedj",
+    "fields": {
+        "session_data": "NjZjZDUzMDAyOWZlOTlkYjUwYjE2NDM4MDkzOTA0MDA3NjM5OTZlNDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI0MWU2MTFkNzBiNTljZjI3NzdlMGFjNTI4OGM3Y2JkZGE4MjM1ZGNlIn0=",
+        "expire_date": "2022-01-20T17:43:32.869Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "jk8o75429neq3g6csc6iikt4pq140myh",
+    "fields": {
+        "session_data": "YzAwODRjOGRmOTljMDNlN2I1OWM5ZTUwNzE1Mzk0Nzg5ZWExNjZmMDp7Il9hdXRoX3VzZXJfaWQiOiI2IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJiMjZkNGViNzM1YWY4OWJjYWZlYjdlMGRlMjZiYTFlNTBhYTk1ODFkIn0=",
+        "expire_date": "2023-11-28T19:28:54.407Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "koh7azq23xzf6egqqbo05j5x4za8aay1",
+    "fields": {
+        "session_data": "OTAxMzFmMGI4MmRlYzUzMzU1ODE5YjIxMWMyOTgyZDI4ZWE1ZDA1Nzp7Il9hdXRoX3VzZXJfaWQiOiIzIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmYmQ0NTQxNWMzZGEyNTVlNDA5MDlhOTkwOGZhZjQ4YTA5NmQ1OTExIn0=",
+        "expire_date": "2023-11-21T21:37:50.210Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "w0517x3yyx1art0yz60tv9isc4wpikmd",
+    "fields": {
+        "session_data": "MzZlMDNkYWI3NjBlMjhkOTIyMDA0MWYxY2FlYzhhM2E0NDk5OTA0Yzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI0MWU2MTFkNzBiNTljZjI3NzdlMGFjNTI4OGM3Y2JkZGE4MjM1ZGNlIiwic29jaWFsYWNjb3VudF9zdGF0ZSI6W3sicHJvY2VzcyI6ImxvZ2luIiwic2NvcGUiOiIiLCJhdXRoX3BhcmFtcyI6IiJ9LCJ0clAxczROWlBwbjYiXX0=",
+        "expire_date": "2022-01-19T14:48:05.995Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook login",
+        "client_id": "451802266470985",
+        "secret": "49f906811d264c2ada7a4a58bfbf863c",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google Login",
+        "client_id": "894523903255-cfc5o94r42127eh9ff20ulch6j1nb3ld.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "thomas"
+        ],
+        "provider": "google",
+        "uid": "113198555974760106129",
+        "last_login": "2023-11-14T19:26:59.719Z",
+        "date_joined": "2023-11-14T19:03:41.829Z",
+        "extra_data": "{\"id\": \"113198555974760106129\", \"name\": \"Thomas AWOUNFOUET\", \"given_name\": \"Thomas\", \"family_name\": \"AWOUNFOUET\", \"picture\": \"https://lh3.googleusercontent.com/a/ACg8ocJvtS4yY2n7Yy51SqexZPH_HPYuU5nj0BKxQZsZRA7oA7w=s96-c\", \"locale\": \"fr\"}"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 1,
+    "fields": {
+        "app": 2,
+        "account": 1,
+        "token": "ya29.a0AfB_byD2QXggoNoy1GK5cah9_twe0O-bE92PElLv5S_24fBGLQkhtv6zFv10zIdlStS2yPpJBkmrNdqOBqb8hDeT2LNNFk-KiZs0Qo58LcLJtKzDeUnEY0RmSv4mbRNEKD8RU0xbX8cWzlPm-NEsHeCX_HIitbOzawaCgYKAWsSAQ4SFQHGX2MicjDiutG2krGD6Bv51jLe3g0169",
+        "token_secret": "",
+        "expires_at": "2023-11-14T20:26:58.555Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-01-03T18:31:22.523Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "djangoadmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-01-03T18:49:47.249Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-01-03T19:04:24.333Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Thomas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-01-03T19:05:44.265Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Thomas",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-01-03T19:07:17.269Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Martin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-01-03T19:07:52.684Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Stone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-01-03T19:08:45.428Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Brandon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-01-03T19:09:49.280Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "John",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-01-03T19:11:14.968Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Michelle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-01-03T22:45:31.449Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Car object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-01-03T22:50:18.104Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "Car object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-01-03T22:54:41.747Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Car object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-01-03T22:59:26.172Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "Car object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-01-03T23:18:24.536Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-01-03T23:20:21.454Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PAGE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-01-03T23:20:25.969Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PAGE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-01-04T00:22:17.256Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-01-05T14:40:32.504Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-01-05T14:41:22.087Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-11-07T20:41:43.667Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-11-07T20:42:50.301Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PAGE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-11-14T19:01:24.221Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
